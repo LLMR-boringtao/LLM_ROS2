@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project is a ROS2 package that simulates a robot in Gazebo controlled by OpenAI APIs. The robot is equipped with a camera and a lidar. 
+This project is a ROS2 package that simulates a sjtu drone robot in Gazebo controlled by OpenAI APIs. The robot is equipped with a camera and a lidar. 
 
 ## Dependencies
 
