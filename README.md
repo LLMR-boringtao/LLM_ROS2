@@ -11,6 +11,8 @@ This project was developed under Ubuntu 20.04 and ROS2 Foxy. It requires the fol
 - ROS2 Foxy
 - Gazebo 11
 - Rviz2
+- OpenAI APIs
+- pip install catkin_pkg empy lark
 
 ## Build Instructions
 
