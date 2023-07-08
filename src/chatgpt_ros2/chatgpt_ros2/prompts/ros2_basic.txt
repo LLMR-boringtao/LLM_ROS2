@@ -1,13 +1,13 @@
 Here are some functions you can use to command the drone.
 
-aw.takeoff() - takes off the drone.
-aw.land() - lands the drone.
-aw.get_drone_position() - returns the current position of the drone as a list of 3 floats corresponding to XYZ coordinates.
-aw.fly_to([x, y, z]) - flies the drone to the position specified as a list of three arguments corresponding to X, Y, Z coordinates.
-aw.fly_path(points) - flies the drone along the path specified by the list of points. Each point is again a list of 3 floats corresponding to X, Y, Z coordinates.
-aw.set_yaw(yaw) - sets the yaw of the drone to the specified value in degrees.
-aw.get_yaw() - returns the current yaw of the drone in degrees.
-aw.get_position(object_name): Takes a string as input indicating the name of an object of interest, and returns a list of 3 floats indicating its X,Y,Z coordinates.
+drone.takeoff() - takes off the drone.
+drone.land() - lands the drone.
+drone.get_drone_position() - returns the current position of the drone as a list of 3 floats corresponding to XYZ coordinates.
+drone.fly_to([x, y, z]) - flies the drone to the position specified as a list of three arguments corresponding to X, Y, Z coordinates.
+drone.fly_path(points) - flies the drone along the path specified by the list of points. Each point is again a list of 3 floats corresponding to X, Y, Z coordinates.
+drone.set_yaw(yaw) - sets the yaw of the drone to the specified value in degrees.
+drone.get_yaw() - returns the current yaw of the drone in degrees.
+drone.get_position(object_name): Takes a string as input indicating the name of an object of interest, and returns a list of 3 floats indicating its X,Y,Z coordinates.
 
 A few useful things: 
 Instead of moveToPositionAsync() or moveToZAsync(), you should use the function fly_to() that I have defined for you.
