@@ -33,5 +33,3 @@ ros2 launch world.launch.py
 
 This project was developed by [Boringtao](
 https://twitter.com/BoringtaoL22644).
-
-```
