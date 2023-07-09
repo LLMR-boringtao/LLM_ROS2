@@ -1,7 +1,7 @@
 import openai
 import re
 import argparse
-from airsim_wrapper import *
+from ros2_wrapper import *
 import math
 import numpy as np
 import os
