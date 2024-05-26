@@ -8,11 +8,10 @@ This project is a ROS2 package that simulates a sjtu drone robot in Gazebo contr
 
 This project was developed under Ubuntu 20.04 and ROS2 Foxy. It requires the following packages:
 
-- ROS2 Foxy
+- ROS2 Humble
 - Gazebo 11
 - Rviz2
 - OpenAI APIs
-- pip install catkin_pkg empy lark
 
 ## Build Instructions
 
@@ -27,11 +26,10 @@ colcon build
 To run the project, source the workspace and launch the launch file with the following commands:
 
 ``` 
-source devel/setup.bash
+sudo apt-get install ros-humble-joint-state-publisher
 ros2 launch world.launch.py
 ```
 
 ## Author
 
-This project was developed by [Boringtao](
-https://twitter.com/BoringtaoL22644).
+This project was developed by [Boringtao](https://twitter.com/BoringtaoL22644).
